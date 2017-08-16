@@ -1,0 +1,21 @@
+{
+  "name": "loans",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "next build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^3.0.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-number-format": "^2.0.3"
+  }
+}
