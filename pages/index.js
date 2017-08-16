@@ -25,9 +25,9 @@ class Index extends Component {
     let factors = {
       cost: this.state.cost * 1,
       down: this.state.down * 1,
-      rate: this.state.rate * 1,
+      rate: this.state.rate,
       term: this.state.term * 1,
-      tax: this.state.tax * 1
+      tax: this.state.tax
     }
 
     return (
