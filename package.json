@@ -7,7 +7,8 @@
     "dev": "next",
     "build": "build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "next build"
+    "heroku-postbuild": "next build",
+    "start": "next start -p $PORT"
   },
   "keywords": [],
   "author": "",
